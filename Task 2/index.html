@@ -1,0 +1,488 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Abhisek </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap CSS -->
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<style>
+    @import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
+.body{
+	font-family: 'Gothic A1', sans-serif;
+	font-size:16px;
+  background-color: aqua;
+	font-size:1em;
+	}
+	h1,h2,h3,h4,h5,h6{color:#323233;text-transform:uppercase;}
+.navbar-brand  span{
+	color: #fed136;
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+    position: fixed;
+}
+.container a{
+  text-decoration: none;
+  padding: 2%;
+  float: left;
+  margin-right: 12%;
+  
+}
+.menu{
+  margin-left: 30%;
+  position: fixed;
+    width: 100%;
+}
+.menu a{
+    margin-left: 10%;
+    line-height: 90px;
+    color: #fed136;
+    text-decoration: none;
+    float: left;
+    
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+  
+  
+}
+.icon
+{
+  display: none;
+}
+.text{
+  margin-top: 150px;
+  margin-left: 5%;
+}
+.ityped ,.text h1{ 
+  color: white;
+}
+.profile img{
+  float: right;
+  margin-right: 20%;
+  margin-top: 130px;
+  border-radius: 100px;
+  padding: 1%;
+}
+#home , #Project, #about, #contact{
+  width: auto;
+  height: 100vh;
+}
+.tit h1{
+  color: #fed136;
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+   line-height: 15vw;
+   margin-left: 10%;
+}
+.cata{
+  color: #fed136;
+  font-size: 35px;
+  margin: 10px;
+  text-align: center;
+  width: 30vw;
+  float: left;
+}
+.dw{
+  color: #fed136;
+  font-size: 70px;
+  padding: 8%;
+  text-align: center;
+  width: 20vw;
+  float: left;
+}
+.ab{
+  color: whitesmoke;
+  width: 40%;
+  padding: 2%;
+  text-align: center;
+  line-height: 25px;
+  float: right;
+}
+.dowm fa{
+  color: antiquewhite;
+
+}
+.tit2{
+  width: 50%;
+}
+.tit2 h2{
+color: white;
+padding: 2%;
+width: 100%;
+float: left;
+}
+.pn{
+  float: left;
+}
+.mb-5{
+  float: right;
+  margin-right: 10%;
+  width: 50%;
+}
+.soci{
+  width: 100%;
+  
+}
+.ico{
+  width: 10%;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+ 
+}
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #fed136;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.contain {
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+@media only screen and (max-width:1000px) {
+
+  #home , #Project, #about , #contact{ 
+  width: auto;
+  height: 720px;
+}
+.soci{
+  width: 100%;
+  text-align: center;
+}
+.ico{
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  font-size: 30px;
+ 
+}
+.col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+.tit2{
+  width: 100%;
+}
+.tit2 h2{
+color: white;
+padding: 2%;
+width: 100%;
+float: left;
+text-align: center;
+}
+.pn{
+  float: left;
+  
+}
+.dw{
+  color: #fed136;
+  font-size: 70px;
+  padding: 1%;
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+  .menu{
+   width: 100%;
+   position: absolute;
+   z-index: 2;
+   position: fixed;
+  height: 100vh;
+    color: #fed136;
+    text-decoration: none;
+    background-color: #020920a9;
+   top: 75px;
+   right: 0;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+  
+}
+.menu a{
+  display: inline-block;
+  width: 100%;
+  
+}
+#myLinks {
+  display: none;
+}
+.icon
+{ display: block;
+  color: #fed136 ;
+  font-size: 30px;
+  text-decoration: none;
+  float: right;
+  margin-top: 15px;
+  position: fixed;
+  
+    margin-left: 80vw;
+}
+.profile img{
+  padding-top: 0%;
+  border-radius: 100px;
+  padding: 8%;
+  margin: 0%;
+}
+
+.tit h1{
+  color: #fed136;
+	font-size:25px;font-weight:700;letter-spacing:0.1em;
+    font-family: 'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+   line-height: 30vw;
+   margin-left: 10%;
+   
+}
+.cata{
+  color: #fed136;
+  font-size: 35px;
+
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+.ab{
+  color: whitesmoke;
+  width: 100%;
+  padding: 2%;
+  text-align: center;
+  line-height: 25px;
+  
+}
+}
+
+</style>
+<script>
+  $(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+  
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+    // Prevent default anchor click behavior
+    event.preventDefault();
+  
+    // Store hash
+    var hash = this.hash;
+  
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+  
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  } // End if
+  });
+  });
+  </script>
+</head>
+<body bgcolor="#020920">
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" id="banner">
+	<div class="container">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#"><span>Abhisek Chowdhury</span></a>
+  </div>
+
+  <div class="menu" id="myLinks" >
+    <a class="main" href="#home">Home</a>
+    <a class="main" href="#Project">My Project</a>
+    <a class="main" href="#about">About</a>
+    <a class="main" href="#contact">Contact</a>
+    
+
+ </div>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+  <i class="fa fa-bars"></i></a>
+</nav>
+<section id="home">
+  <div class="cover">
+       <div class="profile">
+           <img src="https://scontent.fccu2-3.fna.fbcdn.net/v/t39.30808-6/314466488_725160459167453_5786044320194077538_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=iIERzxjAD_oAX9Jye32&_nc_ht=scontent.fccu2-3.fna&oh=00_AfCknHT6upYGtBsp6JknISml3PX7beG_FHKfuFJ1yrFwwA&oe=637C0627" height="300px">
+       </div>
+       <br><br><br>
+
+       <div class="text">
+       <h1>Hello! Everyone<br><br><span class="ityped"></span>
+        <br><br><span class="ityped2"></span>
+       </h1>
+       </div>
+       <script src="https://unpkg.com/ityped@0.0.10">
+
+      </script>
+
+
+<script>
+      window.ityped.init(document.querySelector('.ityped'),{
+          strings: ['My Name Is Abhisek Chowdhury','I make websites using HTML CSS & Javascript','It is very interesting!'],
+          loop: true
+      })
+      window.ityped.init(document.querySelector('.ityped2'),{
+          strings: ['This is my Project','I am a BCA Student'],
+          loop: true
+      })
+  </script>
+
+ </div>
+</section>
+<section id="Project">
+  <div class="tit"><h1>My Project</h1></div>
+  <div class="cata">
+    <a href="https://github.com/Abhisek-Chowdhury-19/Javascript-form-validation" target="_blank" style="text-decoration: none; color: #fed136;"><i class="fa fa-wpforms"></i><br>Form-Validat</a></div>
+  <div class="cata">
+    <a href="https://github.com/Abhisek-Chowdhury-19/portfolio-web" target="_blank" style="text-decoration: none; color: #fed136;"><i class="fa fa-user-circle-o fa-2" aria-hidden="true"></i><br>portfolio</div></a>
+    <div class="cata">
+      <i class="fa fa-wpforms"></i><br>Uploading soon...</div>
+</section>
+<section id="about">
+  <div class="tit"><h1>About</h1></div>
+  <div class="dw">
+    <a href="https://drive.google.com/file/d/11nkk9qZb5AkbdZnuUpFwL3-emBFuIBYn/view?usp=share_link" target="_blank" style="text-decoration: none; color: #fed136;"><i class="fa fa-download" aria-hidden="true"></i><br>CV</div></a>
+    <div class="ab">
+     Hi! First of all,
+
+      My Name is Abhisek Chowdhury.
+       I am from Kolkata. Currently, I am pursuing my graduation in Bachelor of Computer Application from 
+       Maulaba Abul Kalam Azad university Of Technology 
+       . I have completed my 10th and 12th 
+       from Central Model School.
+      
+      In these two years, I am loaning various technical skills. My technical skills include Programming in
+      C, C++, Java, and Python and I am also familiar with web development.
+      
+      Now My Academic Certification includes I get a so many certificates on completion of various courses
+       from platform like Coursera.
+      
+      Coming to My hobby is I like to lisinig Music and the internet surfing.
+      
+      My long-term goal is to achieve a good position where I can build my career and my short-term goal is to get a job in a reputed company where I can use my skills and learn new things.
+      
+      That's all About me, Thank You.
+  </div>
+  
+</section>
+
+<section id="contact">
+  <div class="tit"><h1>Contact</h1></div>
+  <div class="tit2"><h2> Let's talk about <br>everything!</h2>
+  
+</div>
+<div class="soci">
+  <div class="ico">
+    <a href="https://www.facebook.com/abhisek.chowdhury.330" target="_blank"><i class="fa fa-facebook" style="color: blue;"></i></a>
+  </div>
+  <div class="ico">
+    <a href="https://www.instagram.com/abhisek_chowdhury__/?hl=en" target="_blank"><i class="fa fa-instagram" aria-hidden="true" style="display: inline-block;
+    
+      text-align: center;
+      border-radius: 5px;
+      color: #fff;
+      
+      vertical-align: middle;
+      background: #d6249f;
+      background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+      box-shadow: 0px 3px 10px rgba(0,0,0,.25);"></i></a>
+  </div>
+  <div class="ico">
+    <a href="https://www.linkedin.com/in/abhisek-chowdhury-294775210" target="_blank"><i class="fa fa-linkedin" aria-hidden="true" style="color: blue;"></i></a>
+  </div>
+
+</div>
+<br><br> <br><br> <br><br> <br><br>
+<div class="contain">
+  <form action="#">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+</section>
+<script>
+ function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+ 
+  </body>
+</html>
